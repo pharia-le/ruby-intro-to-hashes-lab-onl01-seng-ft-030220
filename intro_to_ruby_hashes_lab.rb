@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 require 'pry'
 
+=======
+>>>>>>> f8a04696702f39a85d121773c7e91ad148044c1f
 def new_hash
   new_hash = {}
 end
@@ -21,9 +24,13 @@ def monopoly_with_second_tier
 	
   monopoly = {
     :railroads => {
+<<<<<<< HEAD
       :pieces => 4,
       :names => {},
       :rent_in_dollars => {}
+=======
+      :pieces => 4
+>>>>>>> f8a04696702f39a85d121773c7e91ad148044c1f
     }
   }
 
@@ -31,6 +38,7 @@ end
 
 def monopoly_with_third_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+<<<<<<< HEAD
  monopoly = {
     :railroads => {
       :pieces => 4,
@@ -46,6 +54,12 @@ def monopoly_with_third_tier
         :three_pieces_owned => 100,
         :four_pieces_owned => 200
       }
+=======
+  monopoly = {
+    :railroads => {
+      :pieces => 4,
+      :names => {}
+>>>>>>> f8a04696702f39a85d121773c7e91ad148044c1f
     }
   }
 end
